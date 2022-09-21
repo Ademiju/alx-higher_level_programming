@@ -6,6 +6,3 @@ def print_last_digit(number):
     else:
         print(f"{number % 10}", end='')
         return(number % 10)
-
-
-
