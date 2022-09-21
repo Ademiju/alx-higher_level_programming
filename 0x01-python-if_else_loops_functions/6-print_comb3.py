@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-for num in range(89):
-    if num / 10 < num % 10:
-        print("{:02d}".format(num), end=", ")
-        print("{:02d}".format(num+1))
+for num in range(9):
+    for var in range(num + 1, 10):
+        print("{:d}{:d}".format(num, var), end='\n' if num == 8 else ', ')
